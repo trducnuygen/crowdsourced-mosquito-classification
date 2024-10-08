@@ -7,7 +7,7 @@ This is the code repository for the paper "...". It is largely inspired from the
 
 1. **Install Datasets**
    - Download the competition dataset from [here](https://www.aicrowd.com/challenges/mosquitoalert-challenge-2023/dataset_files) and unzip it to a folder named `data_round_2` (the annotations files are included).
-   - Install GBIF [dataset](https://www.kaggle.com/datasets/lekoup/gbif-residual-cropped) and unzip it to `gbif-cropped` folder.
+   - Install GBIF [dataset](https://www.kaggle.com/datasets/lekoup/gbif-residual-cropped) and unzip it to `gbif-cropped` folder (the annotations file is included).
 
 2. **Install Dependencies**
    - Use the following command to install the necessary dependencies: `pip install -r requirements.txt`.
@@ -46,3 +46,5 @@ This is the code repository for the paper "...". It is largely inspired from the
 ### gbif-cropped and inaturalist-six-cropped
 
 - `inaturalist.csv` contains annotations for lux's dataset. Since the images are already cropped, we used the entire image as the bounding box.
+- `ma_lux1.csv` is a combination of the mosquito alert's annotation and the GBIF `inaturalist.csv` annotation, which is the main annotation to deal with
+
