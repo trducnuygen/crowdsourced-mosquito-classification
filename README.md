@@ -49,4 +49,5 @@ This is the code repository for the paper "...". It is largely inspired from the
 - `ma_lux1.csv` is a combination of the `best_model_val_data_yolo_annotations.csv`, `best_model_train_data_yolo_annotations.csv`, and the GBIF `inaturalist.csv` annotation.
 
 ## Guided Grad-CAM
-
+- To run the Guided Grad-CAM, run `run_gradcam.ipynb` inside the `pytorch-grad-cam-master` folder.
+- The working directory of `run_gradcam.ipynb` has been moved to the `experiments` folder.
