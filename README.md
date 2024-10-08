@@ -46,5 +46,5 @@ This is the code repository for the paper "...". It is largely inspired from the
 ### gbif-cropped and inaturalist-six-cropped
 
 - `inaturalist.csv` contains annotations for lux's dataset. Since the images are already cropped, we used the entire image as the bounding box.
-- `ma_lux1.csv` is a combination of the mosquito alert's annotation and the GBIF `inaturalist.csv` annotation, which is the main annotation to deal with.
+- `ma_lux1.csv` is a combination of the mosquito alert's annotation and the GBIF `inaturalist.csv` annotation, which is the main annotation to deal with
 
