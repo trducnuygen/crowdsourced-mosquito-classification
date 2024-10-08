@@ -1,6 +1,6 @@
 # Open-set Mosquito Classification on Crowdsourced data using two-stage system with OpenMax
 
-This is the code repository for the paper "...". It is largely inspired from the 7th place solution for the MosquitoAlert Challenge 2023 by HCA97. Link to the original [here](https://github.com/HCA97/Mosquito-Classifiction/tree/main).
+This is the code repository for the paper "Mosquito Identification with Open-set Recognition Using Crowdsourced Images". This project is funded by PAN-ASEAN Coalition for Epidemic and Outbreak Preparedness (PACE-UP). It is largely inspired from the 7th place solution for the MosquitoAlert Challenge 2023 by HCA97. Link to the original [here](https://github.com/HCA97/Mosquito-Classifiction/tree/main).
 
 
 ## Train CLIP Classifier
