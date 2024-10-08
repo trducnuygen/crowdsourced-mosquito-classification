@@ -43,8 +43,10 @@ This is the code repository for the paper "Mosquito Identification with Open-set
 - `phase2_train_v0_cleaned_yolo_best_annotations.csv` uses `phase2_train_v0_cleaned.csv` along with YOLOv8-s model annotations. Refer to `extra_data/annotate_images_yolo.py` for more information.
 - `best_model_val_data_yolo_annotations.csv` and `best_model_train_data_yolo_annotations.csv` are train/validation splits of `phase2_train_v0_cleaned_yolo_best_annotations.csv`.
 
-### gbif-cropped and inaturalist-six-cropped
+### gbif-cropped
 
 - `inaturalist.csv` contains annotations for lux's dataset. Since the images are already cropped, we used the entire image as the bounding box.
-- `ma_lux1.csv` is a combination of the mosquito alert's annotation and the GBIF `inaturalist.csv` annotation, which is the main annotation to deal with
+- `ma_lux1.csv` is a combination of the `best_model_val_data_yolo_annotations.csv`, `best_model_train_data_yolo_annotations.csv`, and the GBIF `inaturalist.csv` annotation.
+
+## Guided Grad-CAM
 
