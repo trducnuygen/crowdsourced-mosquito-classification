@@ -1,0 +1,9 @@
+Annotation 0: no lux1, unknown are culiseta and annopheles.
+Annotation 1: lux1, unknown are culiseta and annopheles.
+Annotation 2: lux1, unknown are aegypti and annopheles.
+
+The "img_fName" column of the annotation is extended with the images' path 
+(with differences between lux1 dataset and mos alert dataset). 
+The workplace is at "Mosquito-Classifiction/experiments".
+
+If any problems arise, split the img_fName.

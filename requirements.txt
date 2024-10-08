@@ -1,0 +1,17 @@
+jupyter
+numpy
+opencv-python
+torch==2.0.1
+torchvision
+open-clip-torch
+transformers
+matplotlib
+pandas
+pytorch-lightning
+lightning[extra]
+tensorboard-pytorch
+tensorboard
+ultralytics==8.0.163
+albumentations
+black
+torcheval

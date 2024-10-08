@@ -1,0 +1,10 @@
+names:
+  0: albopictus
+  1: culex
+  2: japonicus/koreicus
+  3: culiseta
+  4: anopheles
+  5: aegypti
+path: ../../data_yolo
+train: ./images/train
+val: ./images/val
